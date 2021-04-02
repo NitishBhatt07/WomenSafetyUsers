@@ -1,5 +1,6 @@
 # WomenSafetyUsers
 this is a app for women safety.
+there are two application of it. for user and the another one for Admin.
 in this i implemented live location tracking.
 multiusers can register and login this application.
 all the data stored in firebase firestore
