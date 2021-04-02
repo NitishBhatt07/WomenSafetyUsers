@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#111"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_height="150dp">
+
+
+    <TextView
+        android:id="@+id/appName"
+        android:text="MapLoc"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/currentUserName"
+        android:text="Username"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+
+
+
+    <TextView
+        android:id="@+id/currentUserEmail"
+        android:text="Email"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:id="@+id/currentUserNumber"
+        android:text="Number"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+
+
+</LinearLayout>

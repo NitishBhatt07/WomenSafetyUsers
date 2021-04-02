@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#232323"
+    tools:context=".LocationFragment">
+
+
+    <EditText
+        android:id="@+id/txt_time"
+        android:text="5"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border"
+        android:hint="Time In Second"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:textColorHint="#808080" />
+
+
+    <EditText
+        android:id="@+id/number_et1"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/txt_time"
+        android:background="@drawable/border"
+        android:hint="Mobile Number 1"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:textColorHint="#808080" />
+
+    <Button
+        android:id="@+id/contact_btn1"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_time"
+        android:background="@drawable/border"
+        android:text="select 1"
+        android:textColor="#808080" />
+
+    <EditText
+        android:id="@+id/number_et2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/number_et1"
+        android:background="@drawable/border"
+        android:hint="Mobile Number 2"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:textColorHint="#808080" />
+
+
+    <Button
+        android:id="@+id/contact_btn2"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/contact_btn1"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/border"
+        android:text="select 2"
+        android:textColor="#808080" />
+
+    <EditText
+        android:id="@+id/number_et3"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/number_et2"
+        android:background="@drawable/border"
+        android:hint="Mobile Number 3"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:textColorHint="#808080" />
+
+    <Button
+        android:id="@+id/contact_btn3"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/contact_btn2"
+        android:background="@drawable/border"
+        android:text="select 3"
+        android:textColor="#808080" />
+
+    <Switch
+        android:id="@+id/location_switch_btn"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="203dp"
+        android:text="Location"
+        android:textColor="#808080"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="21dp" />
+
+    <Switch
+        android:id="@+id/message_switch_btn"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="118dp"
+        android:text="Message"
+        android:textColor="#808080"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="21dp" />
+
+    <Switch
+        android:id="@+id/listenbtn"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="40dp"
+        android:text="Speak"
+        android:textColor="#808080"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="21dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="General">
+
+        <menu>
+
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_person"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_send"
+                android:title="Login" />
+
+            <item android:id="@+id/nav_switch"
+                app:actionLayout="@layout/switch_menu"
+                android:title="Location"
+                android:icon="@drawable/ic_my_location"/>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Admin Panel">
+
+        <menu>
+            <item
+                android:id="@+id/allUsers"
+                android:icon="@drawable/ic_group"
+                android:title="Users" />
+
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/ic_map"
+                android:title="Map" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_remove"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
